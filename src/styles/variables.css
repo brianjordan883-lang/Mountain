@@ -1,0 +1,11 @@
+:root {
+  --milk: #faf7f2;
+  --beige: #efe6d8;
+  --green: #4a6b57;
+  --green-dark: #35503f;
+  --text: #2e2823;
+  --radius: 18px;
+  --shadow: 0 8px 28px rgba(46, 40, 35, 0.1);
+  --font-head: Georgia, "Times New Roman", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+}

@@ -1,0 +1,71 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  min-height: 100vh;
+  min-height: 100svh;
+  background: #1e1a16;
+  color: #fff;
+  overflow: hidden;
+}
+
+.content {
+  padding: 72px 4vw 48px max(4vw, calc((100vw - 1160px) / 2));
+  max-width: 720px;
+  justify-self: end;
+}
+
+.tag { font-family: var(--font-head); font-size: 1.4rem; }
+.actions { display: flex; flex-wrap: wrap; gap: 14px; }
+
+.photo {
+  position: relative;
+  align-self: stretch;
+  min-height: 100svh;
+}
+
+.photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 35% 50%;
+}
+
+.photo::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #1e1a16 0%, rgba(30, 26, 22, 0) 40%);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+    align-items: start;
+  }
+
+  .photo {
+    order: -1;
+    height: 56svh;
+    min-height: 0;
+  }
+
+  .photo img { object-position: 40% 50%; }
+
+  .photo::after {
+    background: linear-gradient(to top, #1e1a16 0%, rgba(30, 26, 22, 0) 45%);
+  }
+
+  .content {
+    justify-self: stretch;
+    max-width: none;
+    padding: 0 20px 48px;
+    margin-top: -36px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .actions :global(.btn) { flex: 1 1 100%; text-align: center; }
+}

@@ -1,0 +1,74 @@
+/* ===== Классы, которые использовались в разметке, но не были описаны, и новые элементы админки ===== */
+.stack { display: flex; flex-direction: column; gap: 20px; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.text-center { text-align: center; }
+.eyebrow { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--green); margin-bottom: 6px; }
+.section__head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; }
+.section__head h1, .section__head h2 { margin-bottom: 0; }
+.section--auth { padding-top: 110px; }
+.container--auth { max-width: 560px; }
+
+.btn:disabled { opacity: .55; cursor: not-allowed; transform: none; box-shadow: none; }
+.btn--sm { min-height: 36px; padding: 6px 14px; font-size: .88rem; }
+.btn--danger { background: var(--danger); color: #fff; }
+.btn--danger:hover { filter: brightness(1.08); }
+.link-btn:disabled { opacity: .5; cursor: not-allowed; }
+
+.field__hint { align-self: flex-end; font-size: .8rem; }
+.form-success { color: var(--green); font-weight: 600; }
+.checks { display: flex; flex-wrap: wrap; gap: 8px 18px; }
+.check { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; }
+fieldset.field { border: 0; }
+
+/* Страница домика */
+.cottage-detail { display: grid; grid-template-columns: 1.2fr 1fr; gap: 32px; margin: 16px 0 48px; align-items: start; }
+.cottage-detail__gallery { display: grid; gap: 12px; }
+.cottage-detail__gallery img { width: 100%; aspect-ratio: 4/3; object-fit: cover; border-radius: var(--radius); }
+.cottage-detail__gallery .details__img { min-height: 260px; }
+
+/* Бронирование */
+.summary__img { border-radius: 12px; aspect-ratio: 4/3; object-fit: cover; margin: 12px 0; }
+.busy-list { list-style: none; font-size: .88rem; }
+
+/* Админ-панель */
+.admin-layout { display: grid; grid-template-columns: 220px 1fr; gap: 28px; align-items: start; }
+.admin-sidebar { display: flex; flex-direction: column; gap: 6px; position: sticky; top: 96px; }
+.admin-link { padding: 10px 16px; border-radius: 12px; color: var(--text); text-decoration: none; }
+.admin-link:hover { background: var(--beige); }
+.admin-link--active { background: var(--green); color: #fff; }
+.admin-content { min-width: 0; }
+.admin-card { padding: 24px; overflow: visible; }
+.admin-card:hover, .stat-box:hover { transform: none; }
+.admin-card h2 { font-size: 1.3rem; margin-top: 8px; }
+.admin-tab { padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: none; color: var(--text); font: inherit; cursor: pointer; }
+.admin-tab.active { background: var(--green); border-color: var(--green); color: #fff; }
+.stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 16px; }
+.stat-box { padding: 20px; display: flex; flex-direction: column; gap: 6px; }
+.stat-box strong { font-family: var(--font-head); font-size: 1.9rem; }
+.table__wrap { white-space: normal !important; min-width: 220px; max-width: 420px; }
+.table__thumb--empty { display: block; background: linear-gradient(135deg, #8fa896, #d9cdb8); }
+.table td .input--sm { margin-top: 6px; width: auto; }
+.modal { width: min(680px, 100%); }
+
+.upload__grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+.upload__item { position: relative; display: flex; flex-direction: column; gap: 6px; }
+.upload__item .upload__preview { width: 100%; aspect-ratio: 4/3; max-height: none; }
+.upload__item--loading .upload__preview { opacity: .5; }
+.upload__item--error .upload__preview { opacity: .35; }
+.upload__badge { position: absolute; top: 6px; left: 6px; padding: 2px 10px; border-radius: 999px; background: rgba(0, 0, 0, .6); color: #fff; font-size: .75rem; }
+.upload__actions { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .85rem; }
+
+.faq-list { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
+.faq-item { display: flex; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.faq-item p { margin: 4px 0 0; }
+.faq-editor { background: var(--beige); border-radius: 14px; padding: 16px; margin: 12px 0; }
+
+@media (max-width: 820px) {
+  .cottage-detail, .admin-layout { grid-template-columns: 1fr; }
+  .admin-sidebar { position: static; flex-direction: row; flex-wrap: wrap; }
+  .faq-item { flex-direction: column; }
+}
+
+@media (max-width: 420px) {
+  .logo { font-size: 1.1rem; white-space: nowrap; }
+}

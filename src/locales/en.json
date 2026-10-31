@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "title": "Calma Mountain — A-frame retreat in the mountains"
+  },
+  "currency": "KGS",
+  "common": {
+    "loading": "Loading…",
+    "loadError": "Couldn't load the data.",
+    "noCottages": "No cottages yet.",
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "search": "Search",
+    "total": "Total",
+    "actions": "Actions",
+    "status": "Status",
+    "confirmDelete": "Delete “{{name}}”?",
+    "notFound": "Page not found",
+    "notFoundText": "This page does not exist or has been moved."
+  },
+  "nav": {
+    "home": "Home",
+    "cottages": "Cottages",
+    "prices": "Prices",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "contacts": "Contacts",
+    "book": "Book",
+    "menu": "Menu",
+    "language": "Language",
+    "login": "Log in",
+    "logout": "Log out",
+    "register": "Sign up",
+    "admin": "Admin panel",
+    "myBookings": "My bookings"
+  },
+  "cta": {
+    "whatsapp": "Book via WhatsApp",
+    "bookCottage": "Book this cottage",
+    "chooseCottage": "Choose a cottage",
+    "ask": "Ask on WhatsApp"
+  },
+  "hero": {
+    "tag": "In the arms of the mountains — feel the calm",
+    "text": "Escape the noise of the city and relax in the mountain air. Cozy A-frame cottages, beautiful views and an atmosphere made for taking time for yourself are waiting for you."
+  },
+  "about": {
+    "title": "Close to nature, close to yourself",
+    "text": "Calma Mountain is a place to rest from everyday worries and enjoy the quiet of nature. Beautiful mountain views, cozy cottages and pleasant moments on the terrace make your stay special."
+  },
+  "concept": {
+    "p1": "We created Calma Mountain as an intimate space for two.",
+    "p2": "Each cottage comfortably accommodates 2 adults, or a family of 2 adults and 1 child.",
+    "p3": "Our format is not suitable for large groups and noisy events.Thank you for understanding and respecting the atmosphere of privacy and tranquility."
+  },
+  "cottages": {
+    "sectionTitle": "Cottages",
+    "pageTitle": "All cottages",
+    "all": "All cottages",
+    "alba": {
+      "tier": "premium signature house",
+      "tagline": "the brightest and most secluded",
+      "description": "A cozy A-frame cottage with panoramic windows and mountain views, made for relaxing."
+    },
+    "nimbus": {
+      "tier": "premium signature house",
+      "tagline": "the brightest and most secluded",
+      "description": "A cozy space with a light-filled interior and views of the mountain landscapes."
+    },
+    "eclipse": {
+      "tier": "atmosphere",
+      "tagline": "deeper interior, warm atmosphere",
+      "description": "A deeper interior and a warm atmosphere."
+    },
+    "terra": {
+      "tier": "natural house",
+      "tagline": "a cozy basic option",
+      "description": "An A-frame cottage for relaxing on the terrace and enjoying the calm of nature."
+    }
+  },
+  "amenities": {
+    "panorama": "Panoramic windows with mountain views",
+    "terrace": "Private terrace",
+    "breakfast": "Breakfast",
+    "bbq": "BBQ area"
+  },
+  "cottage": {
+    "capacity": "2 adults (+1 child)",
+    "weekday": "Weekdays",
+    "weekend": "Weekends",
+    "imgAlt": "{{name}} A-frame cottage",
+    "guestsMax_one": "Capacity: up to {{count}} guest",
+    "guestsMax_other": "Capacity: up to {{count}} guests"
+  },
+  "details": {
+    "back": "← Cottages",
+    "notFound": "Cottage not found.",
+    "backToList": "← Back to cottages",
+    "photoAlt": "{{name}}, photo {{n}}",
+    "reviews": "Reviews of this cottage"
+  },
+  "pricing": {
+    "title": "Cottages and prices",
+    "dayUse": "Day stay / overnight",
+    "dayUseNote": "subject to availability",
+    "includedTitle": "Included in the price",
+    "included": [
+      "Accommodation for 2 guests",
+      "Panoramic windows with mountain views",
+      "Private terrace",
+      "Stylish minimalist interior",
+      "Tea / coffee area",
+      "Breakfast",
+      "Parking",
+      "BBQ area"
+    ],
+    "extraGuest": "Extra guest",
+    "times": "Check-in from {{in}} · Check-out by {{out}}"
+  },
+  "reviews": {
+    "title": "Guest reviews",
+    "rating": "Rating: {{rating}} out of 5",
+    "noRating": "No ratings yet",
+    "count_one": "{{count}} review",
+    "count_other": "{{count}} reviews",
+    "empty": "No reviews yet — be the first!",
+    "form": {
+      "title": "Leave a review",
+      "name": "Your name",
+      "cottage": "Cottage",
+      "general": "General review",
+      "rating": "Rating",
+      "text": "Your review",
+      "send": "Submit review",
+      "success": "Thank you! Your review was sent and will appear after moderation.",
+      "errors": {
+        "required": "Please enter your name and review text.",
+        "rating": "Choose a rating from 1 to 5 stars.",
+        "name": "Name must be 2 to 60 characters.",
+        "text": "Review must be 10 to 1000 characters."
+      },
+      "moderationNote": "Your review will appear on the site after an administrator checks it.",
+      "sending": "Sending…"
+    }
+  },
+  "instagram": {
+    "title": "Find us on Instagram",
+    "text": "Fresh photos, videos and news from Calma Mountain: see how our cottages look in different seasons."
+  },
+  "ctaBook": {
+    "title": "Plan your mountain getaway",
+    "text": "Pick the dates that suit you and contact us to confirm the booking details."
+  },
+  "contacts": {
+    "title": "Contacts",
+    "text": "For bookings and questions, message us on WhatsApp.",
+    "phone": "Phone",
+    "address": "Address",
+    "addressValue": "Kyrgyzstan, mountain area",
+    "openMap": "Open in maps"
+  },
+  "notFound": {
+    "text": "Page not found.",
+    "home": "Go home"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "zoom": "Enlarge: {{alt}}",
+    "close": "Close",
+    "items": {
+      "exterior": "Exterior of an A-frame cottage",
+      "interior": "Cottage interior",
+      "window": "Panoramic window",
+      "terrace": "Terrace",
+      "mountains1": "Mountain landscape",
+      "mountains2": "View of the mountains"
+    }
+  },
+  "whatsapp": {
+    "general": "Hello! I'd like to learn about Calma Mountain and the booking conditions.",
+    "cottage": "Hello! I'd like to know the booking conditions for the {{name}} cottage.",
+    "houses": {
+      "alba": "Hello! I'm writing from the Calma Mountain website. I'd like to know the booking conditions for the Alba cottage. Could you tell me the available dates and the price?",
+      "nimbus": "Hello! I'd like to book the Nimbus cottage. Please tell me the available dates, the price and the booking conditions.",
+      "terra": "Hello! I'd like to ask about booking the Terra cottage. Which dates are available and what is the price?"
+    },
+    "booking": {
+      "intro": "Hello! I made a booking on the Calma Mountain website. Please confirm it:",
+      "id": "Booking number",
+      "cottage": "Cottage",
+      "checkIn": "Check-in",
+      "checkOut": "Check-out",
+      "nights": "Nights",
+      "guests": "Guests",
+      "guestName": "Name",
+      "phone": "Phone",
+      "total": "Total",
+      "status": "Status",
+      "pending": "awaiting confirmation"
+    }
+  },
+  "theme": {
+    "toLight": "Switch to light theme",
+    "toDark": "Switch to dark theme"
+  },
+  "tiers": {
+    "premium": "Premium",
+    "atmosphere": "Atmosphere",
+    "natural": "Natural"
+  },
+  "cottagesPage": {
+    "searchPlaceholder": "Search by cottage name",
+    "tier": "Category",
+    "anyTier": "All categories",
+    "maxPrice": "Weekday price",
+    "anyPrice": "Any",
+    "upTo": "up to {{price}}",
+    "reset": "Reset",
+    "found": "Found: {{count}}",
+    "empty": "No cottages match your search."
+  },
+  "pagination": {
+    "prev": "← Previous",
+    "next": "Next →",
+    "page": "Page {{page}} of {{total}}"
+  },
+  "booking": {
+    "title": "Booking",
+    "myTitle": "My bookings",
+    "cottage": "Cottage",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "nights": "Nights",
+    "guests": "Guests",
+    "threeGuests": "3 (2 adults + child)",
+    "name": "Your name",
+    "phone": "Phone",
+    "email": "Email",
+    "summary": "Your booking",
+    "priceNote": "Weekend prices apply to Friday and Saturday nights. A third guest is charged per night.",
+    "toPayment": "Continue to payment",
+    "errors": {
+      "dates": "Choose check-in and check-out dates.",
+      "past": "Check-in cannot be in the past.",
+      "order": "Check-out must be after check-in.",
+      "busy": "The cottage is already booked for these dates.",
+      "guests": "This cottage takes at most {{count}} guests."
+    },
+    "doneTitle": "Booking created",
+    "doneText": "Booking #{{id}}, cottage {{name}}. We will contact you to confirm.",
+    "confirmWhatsApp": "Confirm on WhatsApp",
+    "empty": "You have no bookings yet.",
+    "emptyAdmin": "No bookings yet.",
+    "cancel": "Cancel",
+    "deletedCottage": "Cottage removed",
+    "status": {
+      "pending": "Awaiting payment",
+      "paid": "Paid",
+      "confirmed": "Confirmed",
+      "cancelled": "Cancelled"
+    },
+    "notes": "Requests",
+    "submit": "Send request",
+    "success": "Booking request sent",
+    "doneTextGuest": "Your request for cottage {{name}} has been received. We will contact you to confirm.",
+    "busyDates": "Already booked dates:",
+    "cancelConfirm": "Cancel this booking?",
+    "cancelled": "Booking cancelled",
+    "doneHint": "Check the details and tap “Confirm on WhatsApp” — the administrator will receive exactly the same message."
+  },
+  "payment": {
+    "title": "Card payment (demo)",
+    "demoNote": "This is a demo: no money is charged and card data is not stored anywhere.",
+    "number": "Card number",
+    "holder": "Name on card",
+    "expiry": "Expiry date",
+    "pay": "Pay {{sum}}",
+    "later": "Pay on arrival",
+    "error": "Please check the card details."
+  },
+  "auth": {
+    "loginTitle": "Log in",
+    "registerTitle": "Sign up",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "Repeat password",
+    "submitLogin": "Log in",
+    "submitRegister": "Create account",
+    "noAccount": "No account yet?",
+    "haveAccount": "Already have an account?",
+    "or": "or",
+    "google": "Continue with Google",
+    "github": "Continue with GitHub",
+    "forbidden": "Access denied",
+    "forbiddenText": "You do not have permission to view this page.",
+    "errors": {
+      "invalid": "Wrong login or password.",
+      "exists": "A user with this email already exists.",
+      "short": "Password must be at least 6 characters.",
+      "mismatch": "Passwords do not match.",
+      "name": "Enter your name (at least 2 characters).",
+      "oauth": "Could not sign in with the provider"
+    },
+    "checkEmailTitle": "Confirm your email",
+    "checkEmail": "We sent an email to {{email}}. Follow the link in it, then sign in.",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password"
+  },
+  "admin": {
+    "title": "Admin panel",
+    "tabs": {
+      "dashboard": "Statistics",
+      "cottages": "Cottages",
+      "bookings": "Bookings",
+      "reviews": "Reviews"
+    },
+    "stats": {
+      "cottages": "Cottages",
+      "bookings": "Active bookings",
+      "revenue": "Paid amount",
+      "rating": "Average rating",
+      "chartCount": "Bookings per cottage",
+      "chartSum": "Booking amount per cottage"
+    },
+    "addCottage": "Add cottage",
+    "editCottage": "Edit cottage",
+    "saved": "Saved",
+    "deleted": "Deleted",
+    "form": {
+      "name": "Name",
+      "tier": "Category",
+      "description": "Description",
+      "image": "Photo",
+      "uploading": "Uploading…",
+      "uploadError": "Could not upload the photo.",
+      "capacity": "Capacity (guests)",
+      "priceWeekday": "Weekday price, som",
+      "priceWeekend": "Weekend price, som",
+      "amenities": "Features",
+      "tagline": "Short tagline",
+      "saving": "Saving…",
+      "cover": "Cover",
+      "makeCover": "Make cover",
+      "imageHint": "JPG, PNG or WebP up to {{size}} MB. The first photo is the cover.",
+      "errors": {
+        "name": "Enter a name (up to 60 characters).",
+        "description": "Fill in the description in Russian.",
+        "price": "Enter a price — a whole number from 0.",
+        "capacity": "Capacity must be 1 to 20."
+      }
+    },
+    "dashboard": "Statistics",
+    "cottages": "Cottages",
+    "bookings": "Bookings",
+    "totalCottages": "Cottages",
+    "totalBookings": "Active bookings",
+    "totalReviews": "Published reviews",
+    "pendingReviews": "Reviews awaiting moderation",
+    "added": "Added",
+    "confirmDeleteCottage": "Delete cottage “{{name}}”? Its uploaded photos will be deleted too.",
+    "imageCleanupError": "Changes saved, but old photos could not be removed from storage.",
+    "reviews": {
+      "title": "Reviews",
+      "filter": {
+        "pending": "Awaiting moderation",
+        "approved": "Published",
+        "all": "All"
+      },
+      "empty": "No reviews here yet.",
+      "approve": "Publish",
+      "hide": "Hide",
+      "approved": "Review published",
+      "hidden": "Review hidden",
+      "statusApproved": "Published",
+      "statusPending": "Awaiting moderation",
+      "translation": {
+        "action": "Translate",
+        "title": "Edit translations",
+        "ru": "Text in Russian (RU)",
+        "en": "Text in English (EN)",
+        "kg": "Text in Kyrgyz (KG)",
+        "openGoogle": "Open in Google Translate"
+      }
+    },
+    "content": {
+      "title": "Texts & contacts",
+      "hint": "Changes are saved to the database and appear on the site right away.",
+      "contacts": "Contacts",
+      "whatsapp": "WhatsApp number (digits only, with country code)",
+      "stay": "Stay conditions",
+      "faq": "Questions & answers (chat assistant)",
+      "faqHint": "Keywords, separated by commas, help the assistant match a guest's question.",
+      "addFaq": "Add question",
+      "faqEmpty": "No questions for this language yet.",
+      "question": "Question",
+      "answer": "Answer",
+      "keywords": "Keywords",
+      "order": "Order",
+      "hidden": "Hidden (no quick button)",
+      "errors": {
+        "whatsapp": "Digits only, 9 to 15.",
+        "url": "Link must start with https://",
+        "time": "Time in HH:MM format.",
+        "faq": "Fill in the question and the answer."
+      },
+      "map": "Map link (2GIS or Google Maps)"
+    }
+  },
+  "chat": {
+    "title": "Calma assistant",
+    "hello": "Hello! I can answer common questions about cottages and booking.",
+    "placeholder": "Your question…",
+    "send": "Send",
+    "fallback": "I couldn't find an exact answer. Message us on WhatsApp and we'll help with dates and prices.",
+    "faq": [
+      {
+        "question": "Hello",
+        "hidden": true,
+        "keywords": [
+          "hello",
+          "hey",
+          "good morning",
+          "good evening",
+          "привет"
+        ],
+        "answer": "Hello! Ask me about prices, check-in times, what is included or how to book."
+      },
+      {
+        "question": "How much does it cost?",
+        "keywords": [
+          "price",
+          "cost",
+          "how much",
+          "цена"
+        ],
+        "answer": "Weekdays from 12,000 KGS, weekends from 14,000 KGS per cottage. See exact prices in the Cottages section."
+      },
+      {
+        "question": "What are check-in times?",
+        "keywords": [
+          "check",
+          "time",
+          "arrival",
+          "заезд"
+        ],
+        "answer": "Check-in from 14:00, check-out by 12:00."
+      },
+      {
+        "question": "What is included?",
+        "keywords": [
+          "include",
+          "breakfast",
+          "parking",
+          "bbq"
+        ],
+        "answer": "Stay for 2 guests, breakfast, parking, tea/coffee area, BBQ area and a private terrace."
+      },
+      {
+        "question": "How many guests fit?",
+        "keywords": [
+          "guest",
+          "people",
+          "child",
+          "kid",
+          "group"
+        ],
+        "answer": "Each cottage fits 2 adults and 1 child. Larger groups are not suitable for our format."
+      },
+      {
+        "question": "How do I book?",
+        "keywords": [
+          "book",
+          "reserve",
+          "available",
+          "dates",
+          "reservation"
+        ],
+        "answer": "Open the Cottages page, pick a cottage and press “Book this cottage”. Choose your dates and contact details — the price is calculated automatically."
+      },
+      {
+        "question": "How can I contact you?",
+        "keywords": [
+          "phone",
+          "whatsapp",
+          "contact",
+          "call",
+          "number"
+        ],
+        "answer": "Message us on WhatsApp (button below) or call +996 555 123 456."
+      }
+    ]
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "text": "An error occurred on this page. Try reloading the site.",
+    "reload": "Go home",
+    "codes": {
+      "not_configured": "Supabase is not configured: create the .env file as described in README and restart the server.",
+      "session_expired": "Your session has expired. Please sign in again.",
+      "forbidden": "You do not have permission for this action.",
+      "duplicate": "This record already exists (maybe this review was already sent).",
+      "busy": "The cottage is already booked for these dates.",
+      "invalid": "The data did not pass validation. Check the form fields.",
+      "network": "No connection to the server. Check your internet and try again.",
+      "unknown": "Something went wrong. Please try again.",
+      "file_type": "Only JPG, PNG or WebP files are allowed.",
+      "file_size": "The file is larger than 5 MB.",
+      "invalid_credentials": "Wrong email or password.",
+      "email_not_confirmed": "Email not confirmed. Check your inbox.",
+      "user_exists": "A user with this email is already registered.",
+      "weak_password": "Password is too weak (at least 6 characters).",
+      "rate_limit": "Too many attempts. Please wait a little.",
+      "upload_failed": "Could not upload the photo to Cloudinary. Check the cloud name and upload preset in .env."
+    }
+  }
+}
