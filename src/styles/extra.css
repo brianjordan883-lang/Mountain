@@ -197,3 +197,9 @@ body { transition: background 0.3s, color 0.3s; }
 .footer__address-text { display: block; line-height: 1.5; }
 .footer__map-link { display: inline-block; margin-top: 6px; font-size: 14px; color: #c9b79c !important; text-decoration: none; border-bottom: 1px solid rgba(201,183,156,.4); }
 .footer__map-link:hover { border-bottom-color: currentColor; }
+
+/* Кнопка меню (три полоски) — заметная в светлой и тёмной теме */
+.burger { width: 44px; height: 44px; gap: 5px; border-radius: 12px; background: var(--green); box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.burger span { width: 22px; height: 2.5px; border-radius: 2px; background: #fff; }
+.burger:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+[data-theme="dark"] .burger { background: #5a8068; }
