@@ -2,7 +2,6 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
 import ChatBot from "./components/chat/ChatBot";
 import ToastContainer from "./components/ui/ToastContainer";
 import PrivateRoute from "./components/layout/PrivateRoute";
@@ -67,9 +66,6 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
-      <div className="wa-float">
-        <WhatsAppButton label="WhatsApp" />
-      </div>
       <ChatBot />
       <ToastContainer />
     </>
