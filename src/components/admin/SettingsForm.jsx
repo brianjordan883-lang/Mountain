@@ -62,7 +62,7 @@ export default function SettingsForm() {
           <input className="input" value={contacts.phone} maxLength={30} onChange={setC("phone")} />
         </FormField>
         <FormField label={t("admin.content.whatsapp")} error={err("whatsapp")}>
-          <input className="input" value={contacts.whatsapp} inputMode="numeric" onChange={setC("whatsapp")} />
+          <input className="input" value={contacts.whatsapp} inputMode="numeric" placeholder="996997202080" onChange={(e) => setContacts((c) => ({ ...c, whatsapp: e.target.value.replace(/\D/g, "") }))} />
         </FormField>
       </div>
       <div className="form-row">
