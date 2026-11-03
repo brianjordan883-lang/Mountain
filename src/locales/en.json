@@ -41,7 +41,9 @@
     "whatsapp": "Book via WhatsApp",
     "bookCottage": "Book this cottage",
     "chooseCottage": "Choose a cottage",
-    "ask": "Ask on WhatsApp"
+    "ask": "Ask on WhatsApp",
+    "bookingCom": "Book on Booking.com",
+    "bookingComShort": "Booking.com"
   },
   "hero": {
     "tag": "In the arms of the mountains — feel the calm",
@@ -407,7 +409,8 @@
         "time": "Time in HH:MM format.",
         "faq": "Fill in the question and the answer."
       },
-      "map": "Map link (2GIS or Google Maps)"
+      "map": "Map link (2GIS or Google Maps)",
+      "booking": "Booking.com property link (empty — the Booking button is hidden)"
     }
   },
   "chat": {

@@ -12,6 +12,7 @@ function validate(contacts, stay) {
   if (!/^\d{9,15}$/.test(contacts.whatsapp)) errors.whatsapp = "admin.content.errors.whatsapp";
   if (contacts.instagram && !/^https:\/\//.test(contacts.instagram)) errors.instagram = "admin.content.errors.url";
   if (contacts.map && !/^https:\/\//.test(contacts.map.trim())) errors.map = "admin.content.errors.url";
+  if (contacts.booking && !/^https:\/\//.test(contacts.booking.trim())) errors.booking = "admin.content.errors.url";
   if (!TIME.test(stay.checkIn)) errors.checkIn = "admin.content.errors.time";
   if (!TIME.test(stay.checkOut)) errors.checkOut = "admin.content.errors.time";
   for (const key of ["extraGuest", "dayUse"]) {
@@ -44,7 +45,7 @@ export default function SettingsForm() {
     if (Object.keys(found).length) return;
     setSaving(true);
     try {
-      await saveSettings("contacts", { ...contacts, phone: contacts.phone.trim(), email: contacts.email.trim(), map: (contacts.map ?? "").trim() });
+      await saveSettings("contacts", { ...contacts, phone: contacts.phone.trim(), email: contacts.email.trim(), map: (contacts.map ?? "").trim(), booking: (contacts.booking ?? "").trim() });
       await saveSettings("stay", { ...stay, extraGuest: Number(stay.extraGuest), dayUse: Number(stay.dayUse) });
       push(t("admin.saved"));
     } catch (error) {
@@ -75,6 +76,9 @@ export default function SettingsForm() {
       </div>
       <FormField label={t("admin.content.map")} error={err("map")}>
         <input className="input" type="url" value={contacts.map ?? ""} placeholder="https://go.2gis.com/..." onChange={setC("map")} />
+      </FormField>
+      <FormField label={t("admin.content.booking")} error={err("booking")}>
+        <input className="input" type="url" value={contacts.booking ?? ""} placeholder="https://www.booking.com/hotel/kg/..." onChange={setC("booking")} />
       </FormField>
       {["ru", "en", "kg"].map((lang) => (
         <FormField key={lang} label={`${t("contacts.address")} (${lang.toUpperCase()})`}>

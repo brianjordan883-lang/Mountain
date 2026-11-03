@@ -7,6 +7,7 @@ import DataState from "../components/ui/DataState";
 import AmenityList from "../components/cottages/AmenityList";
 import PriceRow from "../components/cottages/PriceRow";
 import WhatsAppButton from "../components/WhatsAppButton";
+import BookingComButton from "../components/BookingComButton";
 import ReviewItem from "../components/reviews/ReviewItem";
 import RatingSummary from "../components/reviews/RatingSummary";
 
@@ -54,6 +55,7 @@ function Details({ slug }) {
             <Link className="btn btn--primary" to={`/booking?cottage=${encodeURIComponent(slug)}`}>
               {t("cta.bookCottage")}
             </Link>
+            <BookingComButton label={t("cta.bookingComShort")} />
             <WhatsAppButton cottage={cottage.name} variant="ghost" label={t("cta.ask")} />
           </div>
         </div>

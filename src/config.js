@@ -13,4 +13,6 @@ export const DEFAULT_CONTACTS = {
   email: "",
   address: { ru: CONTACT.address, en: "", kg: "" },
   map: MAP_URL,
+  // Ссылка на объект в Booking.com. Пустая — кнопка Booking на сайте скрыта.
+  booking: "",
 };

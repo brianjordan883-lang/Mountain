@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { useData } from "../hooks/useData";
 import useCottageText from "../hooks/useCottageText";
 import WhatsAppButton from "./WhatsAppButton";
+import BookingComButton from "./BookingComButton";
 import DataState from "./ui/DataState";
 import { formatSom } from "../utils/format";
 
@@ -62,7 +63,10 @@ export default function Pricing() {
             {t("pricing.times", { in: stay.checkIn, out: stay.checkOut })}
           </p>
         </DataState>
-        <WhatsAppButton />
+        <div className="row">
+          <WhatsAppButton />
+          <BookingComButton />
+        </div>
       </div>
     </section>
   );

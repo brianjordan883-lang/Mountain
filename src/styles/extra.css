@@ -203,3 +203,8 @@ body { transition: background 0.3s, color 0.3s; }
 .burger span { width: 22px; height: 2.5px; border-radius: 2px; background: #fff; }
 .burger:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
 [data-theme="dark"] .burger { background: #5a8068; }
+
+/* Кнопка Booking.com */
+.btn--booking { background: #003b95; color: #fff; text-align: center; }
+.btn--booking:hover { background: #00296b; color: #fff; }
+.row .btn--booking, .card__actions .btn--booking { white-space: nowrap; }

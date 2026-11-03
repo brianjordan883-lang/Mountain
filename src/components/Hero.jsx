@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import WhatsAppButton from "./WhatsAppButton";
+import BookingComButton from "./BookingComButton";
 import styles from "./Hero.module.css";
 
 export default function Hero() {
@@ -13,6 +14,7 @@ export default function Hero() {
         <p>{t("hero.text")}</p>
         <div className={styles.actions}>
           <WhatsAppButton />
+          <BookingComButton />
         </div>
       </div>
 

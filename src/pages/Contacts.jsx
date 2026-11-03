@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import WhatsAppButton from "../components/WhatsAppButton";
+import BookingComButton from "../components/BookingComButton";
 import { useSettings } from "../hooks/useSettings";
 import { pickLang } from "../utils/format";
 import { mapLink } from "../utils/maps";
@@ -36,7 +37,10 @@ export default function Contacts() {
             </a>
           </p>
         )}
-        <WhatsAppButton />
+        <div className="row">
+          <WhatsAppButton />
+          <BookingComButton />
+        </div>
       </div>
     </section>
   );

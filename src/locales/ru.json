@@ -41,7 +41,9 @@
     "whatsapp": "Забронировать в WhatsApp",
     "bookCottage": "Забронировать этот домик",
     "chooseCottage": "Выбрать домик",
-    "ask": "Задать вопрос в WhatsApp"
+    "ask": "Задать вопрос в WhatsApp",
+    "bookingCom": "Забронировать на Booking.com",
+    "bookingComShort": "Booking.com"
   },
   "hero": {
     "tag": "В объятиях гор — почувствуйте тишину",
@@ -419,7 +421,8 @@
         "time": "Время в формате ЧЧ:ММ.",
         "faq": "Заполните вопрос и ответ."
       },
-      "map": "Ссылка на карту (2ГИС или Google Карты)"
+      "map": "Ссылка на карту (2ГИС или Google Карты)",
+      "booking": "Ссылка на объект в Booking.com (пусто — кнопка Booking на сайте скрыта)"
     }
   },
   "chat": {

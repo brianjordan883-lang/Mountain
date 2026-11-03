@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import WhatsAppButton from "./WhatsAppButton";
+import BookingComButton from "./BookingComButton";
 import AmenityList from "./cottages/AmenityList";
 import PriceRow from "./cottages/PriceRow";
 import useCottageText from "../hooks/useCottageText";
@@ -32,7 +33,10 @@ export default function CottageCard({ cottage }) {
         <AmenityList amenities={amenities} />
         <p className="muted">{t("cottage.guestsMax", { count: capacity })}</p>
         <PriceRow price={price} />
-        <WhatsAppButton cottage={name} label={t("cta.bookCottage")} />
+        <div className="card__actions">
+          <WhatsAppButton cottage={name} label={t("cta.bookCottage")} />
+          <BookingComButton label={t("cta.bookingComShort")} />
+        </div>
       </div>
     </article>
   );
